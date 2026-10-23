@@ -1,0 +1,7 @@
+{
+  "synthetic": false,
+  "n_train": 4406,
+  "n_test": 1886,
+  "attack_rate": 0.523604176123468,
+  "trigger_id": "0x7ff"
+}

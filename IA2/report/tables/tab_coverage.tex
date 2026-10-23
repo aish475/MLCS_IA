@@ -1,0 +1,12 @@
+\begin{tabular}{p{3.5cm}p{3.0cm}cp{4.4cm}}
+\toprule
+Threat & Mechanism & Stops? & Note \\
+\midrule
+Backdoor poisoning (integrity) & DP-SGD training & \pmark & Clipping+noise limit poison influence; measured by ASR-vs-$\varepsilon$ \\
+Membership inference & DP-SGD training & \cmark & Bounds per-window influence \\
+Membership inference & Output modification & \pmark & Removes the confidence signal \\
+Telemetry disclosure at collection & Local DP perturbation & \cmark & No trusted curator \\
+Raw-window reconstruction & Compressive PCA/DCA & \cmark & Low-dim code discards raw signal \\
+Frame re-identification & CAN-ID $k$-anonymity (analytical) & \pmark & Stream, not a classic table \\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.toc
+*.synctex.gz
+*.build.log
+# large raw CAN captures (downloaded via kagglehub; see data/PROVENANCE.md)
+data/raw/
